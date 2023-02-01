@@ -28,7 +28,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
         web.scrollView.alwaysBounceVertical = false
         view.addSubview(web)
         
-        web.load(URLRequest(url: URL(string: "https://ddstar.palmmob.com/palmmob3_13/office/GoEditor?l=zh-Hans&a=13&o=16.1&d=F9168800-A598-4880-8153-83031505D897&v=166&t=1667532552&action=edit&fileurl=http%3A%2F%2F3.palmmob.com%2Fpalmmob3%2Foffice_templates%2F172.docx&n=CN&x=c475472b09e569f8fb132b25809badc3&c=apple&u=964821&usetesteditor=1")!))
+        web.load(URLRequest(url: URL(string: "http://oo64-2.palmmob.com/palmmob3_web/doceditorv3.php?type=mobile&fileUrl=https%3A%2F%2Fpalmmob3.oss-cn-shenzhen.aliyuncs.com%2Ftestres%2Ftest1.docx&user=1490838&channel=5&action=edit")!))
     }
 
 }
